@@ -43,7 +43,7 @@ FontMenu.add_command(label="Helvetica", command=fontHelvetica)
 FontMenu.add_command(label="Courier", command=fontCourier)
 
 def aboutFunc():
-    tkMessageBox.showinfo('Title', 'You\'ll be fine! You\'re fine!')
+    tkMessageBox.showinfo('Title', 'A notepad created by Bhavdeep Singh')
 
 AboutMenu=Menu(menu)
 menu.add_cascade(label="About", menu=AboutMenu)
